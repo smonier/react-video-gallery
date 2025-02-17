@@ -83,7 +83,10 @@ Once deployed, you can start adding and configuring video components in Jahia.
 
 ### Adding the React Video Gallery Component
 
-After enabling the module, you can add the **React Video Gallery** component inside Jahia pages.
+After enabling the module, you can add the **React Video Gallery** component within a content folder, and start adding external and internal video to your gallery.
+You can then create a content reference to the gallery to be displayed within a page.
+
+![picture](./src/main/resources/img/jContentVideoGallery.png)
 
 #### Example Jahia Component Usage:
 
