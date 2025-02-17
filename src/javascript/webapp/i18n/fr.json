@@ -1,0 +1,15 @@
+{
+    "chat": {
+        "title": "Poser votre question",
+        "reset": "Réinitialiser",
+        "placeholder": "Tapez un message...",
+        "send": "Envoyer",
+        "open": "Ouvrir la fenêtre de chat Gemini IA"
+    },
+    "error": {
+        "loadingVideos": "Erreur de récupération des vidéos."
+    },
+    "button": {
+        "close": "Fermer"
+    }
+}

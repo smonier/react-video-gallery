@@ -1,0 +1,24 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<rvgnt = 'http://www.jahia.org/mg/nt/1.0'>
+<rvgmix = 'http://www.jahia.org/mg/mix/1.0'>
+
+<Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
+        <Typography gutterBottom variant="h4" align="center">
+            {data.response.Gallery.title}
+        </Typography>
+        {isEditing && (
+            <IconButton
+                sx={{
+                    position: 'absolute',
+                    right: 0, // Pushes it to the right side
+                    bgcolor: 'rgba(255, 255, 255, 0.8)',
+                    color: 'black',
+                    '&:hover': { bgcolor: 'rgba(255, 255, 255, 1)' }
+                }}
+                onClick={() => handleEditContent(data.response.Gallery)}
+            >
+                <EditIcon />
+            </IconButton>
+        )}
+    </Box>

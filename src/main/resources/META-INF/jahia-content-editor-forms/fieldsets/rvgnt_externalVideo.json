@@ -1,0 +1,41 @@
+{
+  "name": "rvgnt:externalVideo",
+  "description": "List of Video Service providers",
+  "dynamic": false,
+  "fields": [
+    {
+      "name": "videoService",
+      "selectorType": "Choicelist",
+      "valueConstraints": [
+        {
+          "value": {
+            "type": "String",
+            "value": "youtube"
+          },
+          "displayValue": "Youtube"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "vimeo"
+          },
+          "displayValue": "Vimeo"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "wistia"
+          },
+          "displayValue": "Wistia"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "storylane"
+          },
+          "displayValue": "Storylane"
+        }
+      ]
+    }
+  ]
+}

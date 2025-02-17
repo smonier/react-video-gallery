@@ -1,0 +1,15 @@
+{
+    "chat": {
+        "title": "Gemini Generative AI Chat",
+        "reset": "Reset",
+        "placeholder": "Type a message...",
+        "send": "Send",
+        "open": "Open Gemini IA Chat window"
+    },
+    "error": {
+        "loadingVideos": "Error with fetching the videos"
+    },
+    "button": {
+        "close": "Close"
+    }
+}
